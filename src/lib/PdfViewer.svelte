@@ -1,7 +1,7 @@
 <script>
   import { onDestroy, tick } from "svelte";
   import * as pdfjs from "pdfjs-dist";
-  import pdfjsWorker from "pdfjs-dist/build/pdf.worker.min.js?url";
+  import pdfjsWorker from "pdfjs-dist/build/pdf.worker.min.js";
   import FileSaver from "file-saver";
   import { onPrint, calcRT, getPageText } from "./utils/Helper.svelte";
   import Tooltip from "./utils/Tooltip.svelte";
